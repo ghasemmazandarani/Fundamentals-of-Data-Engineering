@@ -66,3 +66,5 @@ CDC enables continuous data synchronization by capturing data changes. There are
 In some cases, data bypasses a backend database and is sent directly to an endpoint via a streaming platform. This method is advantageous for scenarios like IoT sensor data, where each reading is treated as an event, enabling real-time processing. This pattern is also popular in software applications, as it simplifies processing and enhances the flexibility of downstream analytics.
 
 
+
+
