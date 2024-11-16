@@ -66,25 +66,25 @@ CDC enables continuous data synchronization by capturing data changes. There are
 In some cases, data bypasses a backend database and is sent directly to an endpoint via a streaming platform. This method is advantageous for scenarios like IoT sensor data, where each reading is treated as an event, enabling real-time processing. This pattern is also popular in software applications, as it simplifies processing and enhances the flexibility of downstream analytics.
 
 
-# Data Transformation in the Data Engineering Lifecycle
+## Data Transformation in the Data Engineering Lifecycle
 
-## Overview
+### Overview
 Data transformation is a critical phase where raw data is converted into meaningful information for downstream use. Without proper transformations, data remains inert and unusable for analytics, reporting, or machine learning.
 
-## Key Components
+### Key Components
 
-### Basic Transformations
+#### Basic Transformations
 * Converting data types (strings to numbers/dates)  
 * Standardizing record formats
 * Removing invalid records
 
-### Advanced Transformations
+#### Advanced Transformations
 * Schema modifications
 * Data normalization  
 * Large-scale aggregation
 * Feature engineering for ML
 
-## Important Considerations
+### Important Considerations
 1. **ROI Analysis**
   * Cost evaluation
   * Business value assessment
@@ -98,13 +98,13 @@ Data transformation is a critical phase where raw data is converted into meaning
   * Batch processing
   * Stream processing
 
-## Business Impact
+### Business Impact
 * Supports data modeling
 * Implements business logic
 * Enables financial reporting
 * Facilitates machine learning
 
-## Best Practices
+### Best Practices
 * Keep transformations simple and isolated
 * Align with business rules
 * Minimize data movement
